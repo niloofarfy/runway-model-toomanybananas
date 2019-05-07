@@ -6,7 +6,7 @@
  * https://opensource.org/licenses/MIT
  */
 
-var bananas : 0..100 = 6;
+var bananas : 0..100 = 4;
 var notePresent: Boolean;
 type Person : either {
   Happy,
@@ -17,7 +17,7 @@ type Person : either {
   },
   Failed
 };
-var roommates: Array<Person>[1..5];
+var roommates: Array<Person>[1..6];
 
 
 rule step for state in roommates {
