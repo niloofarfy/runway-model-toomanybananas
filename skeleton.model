@@ -17,7 +17,7 @@ type Person : either {
   },
   Failed
 };
-var roommates: Array<Person>[1..6];
+var roommates: Array<Person>[1..5];
 
 
 rule step for state in roommates {
