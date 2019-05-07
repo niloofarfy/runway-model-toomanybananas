@@ -63,6 +63,5 @@ rule step for state in roommates {
 }
 
 invariant BananaLimit {
-  assert bananas <= 8 ;
-  
+  assert bananas <= 8 ; 
 }
