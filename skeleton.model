@@ -15,7 +15,7 @@ type Person : either {
   ReturningFromStore {
     carrying: 1..8
   },
-  Failed
+  
 };
 var roommates: Array<Person>[1..5];
 
